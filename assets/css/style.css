@@ -16,7 +16,7 @@
     align-items: center;
 }
 
-.hdng {
+.heading {
     font-weight: 700;
     font-size: 42px;
     text-align: center;
@@ -41,28 +41,13 @@
     margin-left: -12px;
     margin-right: -12px;
 }
-
-.col-1 {
-    width: 8.33%;
-    padding-left: 12px;
+.col-12{
+    width: 100%;
     padding-right: 12px;
-}
-
-.col-2 {
-    width: 16.66%;
     padding-left: 12px;
-    padding-right: 12px;
 }
-
-.col-3 {
-    width: 25%;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-
-
-
-.para {
+ 
+.paragraph {
     font-weight: 500;
     font-size: 18px;
     color: #15143966;
@@ -70,8 +55,6 @@
     text-align: center;
     margin-bottom: 52px;
 }
-
-
 
 .logo {
     display: flex;
@@ -84,4 +67,30 @@
     background-color: #EBEAED;
     border-radius: 10px;
     margin-bottom: 29px;
+}
+
+
+
+@media (min-width:576px) {
+    .col-sm-6{
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    
+}
+@media (min-width:768px) {
+    .col-4-md {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+@media (min-width:992px) {
+    .col-3-lg {
+        width: 25%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
 }
